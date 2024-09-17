@@ -8,13 +8,20 @@ Abaixo está a organização das pastas e uma breve descrição de cada uma:
 
 ```plaintext
 /
+├── Socket/
+│   ├── ClienteBaisco.java       # Implementação de um cliente básico utilizando socket
+│   ├── ServidorBasico.java        # Implementação de um servidor básico utilizando socket
+│   ├── SendFile.java        # Implementação de um cliente para enviar um arquivo para um servidor utilizando socket
+│   ├── ReceiveFile.java        # Implementação de um servidor para receber e processar um arquivo enviando de um cliente utilizando socket
+│   ├── ServerTime.java        # Implementação de um servidor de data e hora utilizando socket
+│   ├── ClientTime.java        # Implementação de um cliente que busca a data e hora de um servidor utilizando socket
 ├── RPC/
 │   ├── HelloClient.java       # Código contendo o client stub
 │   ├── HelloService.java        # Código contendo o client stub
 │   └── HelloServiceImpl.java       # Implementação do serviço
 │   └── SoapServer.java       # Implementação contendo do server stub
 ├── RMI/
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── ...
+│   ├── ...
+│   └── ...
 
