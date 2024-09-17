@@ -1,4 +1,4 @@
-# Códigos de Programação em Java - Aulas
+# Códigos de Programação Distribuída em Java - Aulas
 
 Este repositório contém uma coleção de códigos-fonte em Java desenvolvidos para o aprendizado na implementação de sistemas distribuídos. Os códigos são usados como exemplos e exercícios durante as aulas, cobrindo conceitos e tópicos relacionados à progrmação distribuída.
 
