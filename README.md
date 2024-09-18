@@ -8,15 +8,15 @@ Abaixo está a organização das pastas e uma breve descrição de cada uma:
 
 ```plaintext
 /
+├── RMI/
+│   ├── ...
+│   ├── ...
+│   └── ...
 ├── RPC/
 │   ├── HelloClient.java       # Código contendo o client stub
 │   ├── HelloService.java        # Código contendo o client stub
 │   └── HelloServiceImpl.java       # Implementação do serviço
 │   └── SoapServer.java       # Implementação contendo do server stub
-├── RMI/
-│   ├── ...
-│   ├── ...
-│   └── ...
 ├── Socket/
 │   ├── ClienteBaisco.java       # Implementação de um cliente básico utilizando socket
 │   ├── ServidorBasico.java        # Implementação de um servidor básico utilizando socket
