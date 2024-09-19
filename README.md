@@ -9,11 +9,15 @@ Abaixo está a organização das pastas e uma breve descrição de cada uma:
 ```plaintext
 /
 ├── RMI/
-│   ├── HelloService.java       # Interface com os métodos implementados no serviço  
-│   ├── HelloServiceImpl.java   # Implementação dos métodos definidos na interface
-│   ├── RMIClient.java          # Consome os serviços definidos no cliente
-│   ├── RMIServer.java          # Cria um servidor para disponibilizar os serviços e receber requisições de clientes 
-│   └── pom.xml                 # Arquivo XML com as dependências e configurações do MAVEN
+│   ├── CalculadoraClient.java        # Cliente para conectar ao servidor e consumir os serviços disponibilizados
+│   ├── CalculadoraServer.java        # Servidor que disponibiliza os serviços
+│   ├── CalculadoraService.java       # Interface com os métodos implementados no serviço
+│   ├── CalculadoraServiceImpl.java   # Implementação dos métodos da interface
+│   ├── HelloService.java             # Interface com os métodos implementados no serviço  
+│   ├── HelloServiceImpl.java         # Implementação dos métodos definidos na interface
+│   ├── RMIClient.java                # Consome os serviços definidos no cliente
+│   ├── RMIServer.java                # Cria um servidor para disponibilizar os serviços e receber requisições de clientes 
+│   └── pom.xml                       # Arquivo XML com as dependências e configurações do MAVEN
 ├── RPC/
 │   ├── HelloClient.java        # Implementação dos métodos stub no cliente
 │   ├── HelloService.java       # Interface com os métodos implementados no serviço
