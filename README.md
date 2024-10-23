@@ -8,6 +8,12 @@ Abaixo está a organização das pastas e uma breve descrição de cada uma:
 
 ```plaintext
 /
+├── reflection/
+│   ├── JPA
+│   ├── ├── Person.java              # Classe model com os atributos da entidade
+│   ├── ├── EntityFactory.java       # Configurações do JPA/Hibernate
+│   ├── ├── TestJPA.java             # Teste da aplicação
+│   └── pom.xml   
 ├── RMI/
 │   ├── CalculadoraClient.java        # Cliente para conectar ao servidor e consumir os serviços disponibilizados
 │   ├── CalculadoraServer.java        # Servidor que disponibiliza os serviços
